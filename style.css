@@ -90,10 +90,8 @@ h1 {
     margin-left: 7rem;
 }
 .sticky {
-    position: relative;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top : 75rem;
+    position: absolute;
+    top : 30rem;
     bottom: 0;
     margin:5px;
     color:aliceblue;
