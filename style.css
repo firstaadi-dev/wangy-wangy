@@ -64,25 +64,28 @@ h1 {
 .button-generate
 {
     position: absolute;
+    width:8rem;
     margin-left: 218px;
     font-weight: bold;
-    margin-left: 13rem;
+    margin-left: 7rem;
 }
 .input-waifu
 {
     position: absolute;
+    width:8rem;
     color: #fff;
     background-color: #000;
     border-color: #fff;
     border-radius: 6px;
-    margin-left: 13rem;
+    margin-left: 7rem;
 }
 .box-jenis
 {
     position: absolute;
+    width:8rem;
     color: #fff;
     background-color: #000;
     border-color: #fff;
     border-radius: 6px;
-    margin-left: 13rem;
+    margin-left: 7rem;
 }
