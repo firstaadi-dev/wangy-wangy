@@ -28,9 +28,11 @@ h1 {
 }
 .wangy
 {
+    position: absolute;
     min-width: 80%;
     margin:5px;
     margin-bottom: -2px;
+    margin-top: 2rem;
     background-color: #000;
     color: #fff;
     
@@ -38,12 +40,14 @@ h1 {
 }
 .copy
 {
+    position: absolute;
     margin: 5px;
-    margin-top: -2px;
+    margin-top: 10rem;
     font-weight: bold;
 }
 .label-jenis
 {
+    position: absolute;
     margin-right: 9rem;
     font-weight: bold;
     color: aliceblue;
@@ -51,26 +55,33 @@ h1 {
 }
 .label-waifu
 {
+    position: absolute;
     margin-right: 11px;
     font-weight: bold;
     color: aliceblue;
 }
 .button-generate
 {
+    position: absolute;
     margin-left: 218px;
     font-weight: bold;
+    margin-left: 13rem;
 }
 .input-waifu
 {
+    position: absolute;
     color: #fff;
     background-color: #000;
     border-color: #fff;
     border-radius: 6px;
+    margin-left: 13rem;
 }
 .box-jenis
 {
+    position: absolute;
     color: #fff;
     background-color: #000;
     border-color: #fff;
     border-radius: 6px;
+    margin-left: 13rem;
 }
