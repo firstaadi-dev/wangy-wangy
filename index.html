@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Wangy Wangy Generator</title>
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>        
+        <div class="selector">
+            <div class="waifu-selector" id="waifu-selector">
+                <label class="label-waifu" for="waifu">Masukkan Nama Waifu Anda</label>
+                <input class="input-waifu" type="text" id="waifu" name="waifu">
+                
+                <br></br>
+                <label class ="label-jenis" for="jenis">Pilih Jenis</label>
+                <select class = "box-jenis" id="jenis" name="jenis" required>
+                    <option disabled selected>--Jenis Degen--</option>
+                    <option value="a">Wangy</option>
+                    <option value="b">Gemetaran</option>
+                    <option value="c">SIMP</option>
+                </select>
+                <br></br>
+                <button class="button-generate" onclick="generate()">Generate Degen</button>
+
+            </div>
+            <textarea class ="wangy" rows="10" id="wangy" name="wangy">
+            </textarea>
+            <br></br>
+            <button class = "copy" onclick="myFunction()">Copy text</button>
+        </div>        
+    </body>
+</html>

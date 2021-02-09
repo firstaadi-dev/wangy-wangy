@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    align-items:left;
+    min-width: 100vh;
+    margin: 0;
+}
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.selector
+{
+    margin-top:1rem;
+}
+.waifu-selector 
+{
+    margin-left: 5px;
+    font-size: 1rem; 
+}
+.wangy
+{
+    min-width: 80%;
+    margin:5px;
+    margin-bottom: -2px;
+    background-color: #000;
+    color: #fff;
+    
+
+}
+.copy
+{
+    margin: 5px;
+    margin-top: -2px;
+    font-weight: bold;
+}
+.label-jenis
+{
+    margin-right: 9rem;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+.label-waifu
+{
+    margin-right: 11px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.button-generate
+{
+    margin-left: 218px;
+    font-weight: bold;
+}
+.input-waifu
+{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 6px;
+}
+.box-jenis
+{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 6px;
+}
