@@ -5,37 +5,54 @@
 .header
 {
     text-align:center;
+    color: #3a8f82;
+    font-weight:bold;
+    
 }
 body
 {
-    background-color: #F0DCCA;
+    background-color:#28112B;
     display: flex;
     flex-direction:column;
     min-width: 100%;
     padding:30px;
+    color: #8DAA91;
+    margin:0;
+    margin-bottom:10px;
     
+}
+.box-container {
+    background-color:#453643; 
+    padding: 10;
+    min-height: 100%;
+    display: flex;
+    flex-direction:column;
 }
 .label-Waifu
 {
     display: absolute;
-    margin-left:0;
+    
 }
 .input-waifu
 {
     float:right;
     width:85%;
-    margin-right: 1rem;
+    background-color:#28112B;
+    color: #8DAA91;
+    
 }
 .label-jenis
 {
     display: absolute;
-    margin-left:0;
+    
 }
 .box-jenis
 {
     float:right;
     width:85%;
-    margin-right: 1rem;
+    background-color:#28112B;
+    color: #8DAA91;
+    
 }
 .button
 {
@@ -47,10 +64,12 @@ body
 
 .text-area
 {
-    width: 99%;
-    padding: 1em; /* adjust value  to suit  */
+    min-width:100%;
     box-sizing: border-box;
     resize: vertical; 
+    background-color:#28112B;
+    
+    color: #8DAA91;
 }
 .footer
 {
@@ -59,17 +78,16 @@ body
     bottom: 0;
     width: 100%;  
     text-align: center;
+    color: #F8F8F8;
+    
 }
 
 @media only screen and (max-width: 700px) {
     .input-waifu{
-        width:50%
+        width:60%
     }
     .box-jenis {
-        width:50%
+        width:60%
     }
-    .text-area
-    {
-        width: 96%;
-    }
+    
   }

@@ -4,38 +4,41 @@
         <link rel="stylesheet" href="style.css">
         <title>Stress Generator</title>
         <script type="text/javascript" src="script.js" defer></script>
-        <div class="header">
-            <h1>Stress Text Generator</h1>
-        </div>
+        
         
     </head>
-    <body>        
-        <div class="selector">
-                <label class="label-waifu" for="waifu">Nama Waifu</label>
-                <input class="input-waifu" type="text" id="waifu" name="waifu">
-                
-                <br></br>
-                <label class ="label-jenis" for="jenis">Pilih Jenis</label>
-                <select class = "box-jenis" id="jenis" name="jenis" required>
-                    <option disabled selected>--Jenis Stress--</option>
-                    <option value="a">Wangy</option>
-                    <option value="b">Gemetaran</option>
-                    <option value="c">SIMP</option>
-                </select>
-                <br></br>
-                    <div class="button">
-                        <button class="child" onclick="generate()">Generate Text Stress</button>
-                    </div>
-                <br></br>
-                    <div >
-                        <textarea class ="text-area" rows="15" id="wangy" name="wangy">
-                        </textarea>
-                    </div>
+    <body>
+        <div class="box-container">
+            <div class="header">
+                <h1>Stress Text Generator</h1>
+            </div>       
+            <div class="selector">
+                    <label class="label-waifu" for="waifu">Nama Waifu</label>
+                    <input class="input-waifu" type="text" id="waifu" name="waifu">
+                    
+                    <br></br>
+                    <label class ="label-jenis" for="jenis">Pilih Jenis</label>
+                    <select class = "box-jenis" id="jenis" name="jenis" required>
+                        <option disabled selected>--Jenis Stress--</option>
+                        <option value="a">Wangy</option>
+                        <option value="b">Gemetaran</option>
+                        <option value="c">SIMP</option>
+                    </select>
+                    <br></br>
+                        <div class="button">
+                            <button class="child" onclick="generate()">Generate Text Stress</button>
+                        </div>
+                    <br></br>
+                        
+                            <textarea class ="text-area" rows="20" id="wangy" name="wangy">
+                            </textarea>
+                        
 
-                    <div class="button">
-                        <button class = "copy" style="margin-top:5px;" onclick="myFunction()">Copy text</button>
-                    </div>
-        </div>        
+                        <div class="button">
+                            <button class = "copy" style="margin-top:5px;" onclick="myFunction()">Copy text</button>
+                        </div>
+            </div>
+        </div>         
     </body>
     <a href="https://www.facebook.com/firsta.adi.pradana/" class = "footer">Created by: Firsta Adi Pradana</p>
 </html>
